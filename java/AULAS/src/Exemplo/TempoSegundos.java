@@ -1,8 +1,12 @@
-/*3. Faça um sistema que leia o tempo de duração de um
+/*
+ * 3. Faça um sistema que leia o tempo de duração de um
  *  evento em uma fábrica expressa em segundos e mostre-o 
  *  expresso em horas, minutos e segundos. 
  *  f% double - %.2f
- *  */
+ *  %d int
+ *  %s String
+ *  %c caracter
+ */
 
 
 package Exemplo;
@@ -26,8 +30,7 @@ public class TempoSegundos {
 		segundos = ((tempoDuracao % 3600) % 60);
 		
 		System.out.printf("Horas: %.0f \nMinutos: %.0f \nSegundos: %.0f", horas, minutos, segundos);
-		
-		
+
 	}
 
 }
