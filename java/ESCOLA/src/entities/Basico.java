@@ -13,7 +13,7 @@ public class Basico extends Estudante {
 		return diaAniversario;
 	}
 
-	public void setBonusAniversario(int diaAniversario) {
+	public void setDiaAniversario(int diaAniversario) {
 		this.diaAniversario = diaAniversario;
 	}
 
