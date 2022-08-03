@@ -1,0 +1,50 @@
+
+body {
+  background-color: black;
+}
+
+
+  #myVideo {
+  position: absolute;
+  top: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+  position:relative ;
+  top: 500px;
+  bottom: 0;
+  background: transparent;
+  color: #f1f1f1;
+  width: 100%;
+  padding: 100px;
+}
+
+.mt-carousel {
+  margin-top: 600px;
+  min-width: 100%;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+
+.tm-social {
+  width: 50px;
+  height: 50px;
+}

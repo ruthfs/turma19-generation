@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Last Of Us Part II</title>
+    <!-- link para acessar o servidor do bootstrap para CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Menu -->
+ <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+        <a class="navbar-brand" href="#">
+            <img src="assets/img/playstation-4-logo-ps4-6.png" width="30" height="30" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link text-light" href="index.html">Home <span class="sr-only">(página atual)</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link text-light" href="https://www.naughtydog.com/blog" target="_blank">Novidades <span class="sr-only">(página de novidades)</span></a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="https://store.playstation.com/pt-br/product/UP9000-CUSA07820_00-THELASTOFUSPART2" target="_blank">Compre</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Informações
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Sobre</a>
+                <a class="dropdown-item" href="#">Contato</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Suporte</a>
+              </div>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+            <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Pesquisar</button>
+          </form>
+        </div>
+      </nav> 
+<!-- Menu -->
+
+<!-- The video -->
+<div class="container-fluid p-0">
+  <div class="row w-100">
+    <div class="col">
+<video autoplay muted loop id="myVideo">
+  <source src="assets/video/tlouvideo.mp4" type="video/mp4">
+</video>
+<!-- Optional: some overlay text to describe the video -->
+<div class="content">
+     </div>
+   </div>
+  </div>
+</div>
+
+<!-- Jumbotron -->
+ <div class="jumbotron bg-transparent">
+      <h1 class="display-4 text-light">The Last Of Us Part II</h1>
+      <p class="lead text-light">The Game Awards 2020: Game Of The Year</p>
+    </div>
+  </div>   
+
+
+<!-- Carrosel -->  
+<div class="container mt-carousel"> 
+    <div class="row">
+      <div class="col">
+  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+    <div class="carousel-inner mt-5">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="assets/img/p2.jpg" alt="Primeiro Slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="assets/img/tlou3.jpg" alt="Segundo Slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="assets/img/paisagem.jpg" alt="Terceiro Slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="assets/img/tlou1.jpg" alt="Quarto Slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="assets/img/p3-dina-ellie.jpg" alt="Quinto Slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="assets/img/joel (1).jpg" alt="Quinto Slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="assets/img/estalador.png" alt="Quinto Slide">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Anterior</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Próximo</span>
+    </a>
+  </div>  
+</div> 
+</div>
+</div>
+<!-- Carrosel -->
+
+<!-- Cards -->
+<div class="container mt-5">
+<div class="card-deck">
+  <div class="card">
+    <img class="card-img-top" src="https://gmedia.playstation.com/is/image/SIEPDC/the-last-of-us-part-ii-e3-2018-screen-02-ps4-us-10jul18?$1600px$" alt="Imagem de capa do card">
+    <div class="card-body">
+      <h5 class="card-title">Uma história complexa e emocionante</h5>
+      <p class="card-text">Vivencie os conflitos morais cada vez maiores criados pela caçada implacável de Ellie em busca de vingança. O ciclo de violência deixado no caminho dela desafiará as suas noções de certo ou errado, bem ou mal e herói ou vilão.</p>
+      <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="https://gmedia.playstation.com/is/image/SIEPDC/the-last-of-us-part-ii-e3-2018-screen-08-ps4-us-10jul18?$1600px$" alt="Imagem de capa do card">
+    <div class="card-body">
+      <h5 class="card-title">Jogabilidade tensa e desesperada de ação e sobrevivência</h5>
+      <p class="card-text">Com sistemas novos e aprimorados, a jornada de Ellie nesse mundo hostil é questão de vida ou morte. Sinta-a lutar desesperadamente pela sobrevivência com funcionalidades melhoradas, como combate corpo a corpo de alta intensidade, movimento fluido e furtividade dinâmica. A ampla variedade de armas, itens para fabricação, habilidades e melhorias permite personalizar as capacidades da Ellie conforme o seu estilo de jogo.</p>
+      <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="https://gmedia.playstation.com/is/image/SIEPDC/the-last-of-us-part-ii-e3-2018-screen-04-ps4-us-10jul18?$1600px$" alt="Imagem de capa do card">
+    <div class="card-body">
+      <h5 class="card-title">Um mundo belo e perigoso</h5>
+      <p class="card-text">Acompanhe Ellie na jornada pelas montanhas e florestas pacíficas de Jackson até uma exuberante Seattle em ruínas, coberta de mato. Encontre novos grupos de sobreviventes, ambientes estranhos e traiçoeiros e infectados com evoluções terríveis. Ganhando vida com a versão mais recente da engine da Naughty Dog, o mundo e os personagens letais estão mais realistas e detalhados do que nunca.</p>
+      <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+    </div>
+  </div>
+</div>
+
+<!-- Cards -->
+
+
+<!-- Grid|Texto e Video -->
+    <div class="row mt-5 d-flex ">
+  <!-- Proporção 16:9 -->
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe width="800" height="500" src="https://www.youtube.com/embed/TXl9GI1p_Os" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    </div>
+  </div>  
+<!-- Grid|Texto e Video -->
+
+<!-- Formulário de Contato -->
+<div class="container">
+<div class="row mt-5">
+  <div class="col-md-12 d-flex align-items-center">
+    <h3 class="text-center text-light">Entre em Contato</h3>
+  </div>
+</div>
+
+<div class="row ">
+  <div class="col-md-6 ">
+    <form>
+      <div class="form-group text-light">
+        <label for="exampleFormControlInput1">Endereço de email</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+      </div>
+      <div class="form-group text-light">
+        <label for="exampleFormControlTextarea1">Mensagem</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <div class="form-group d-flex justify-content-end">
+        <button class="btn btn-outline-success text-light">Enviar</button>
+        </div>
+      </div>
+    </form>
+    <div class="col-md-6">
+      <iframe class="w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.5833659512823!2d-46.712868598919506!3d-23.511511684632644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef8f66bd66619%3A0x187d7e4952fb9903!2sRua%20Werner%20Von%20Siemens%2C%20111%20-%20Lapa%20de%20Baixo%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2005069-010!5e0!3m2!1spt-BR!2sbr!4v1621877902905!5m2!1spt-BR!2sbr" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+  </div>
+<!-- Formulário de Contato -->
+
+<hr>
+
+<!-- Footer -->
+<footer>
+
+  <div class="row mb-3 bg-dark">
+    <div class="col-md-12 d-flex justify-content-center">
+      
+        <a href="https://www.linkedin.com/in/falecomruthferreira/" target ="_blank" class="p-3">
+          <img class="tm-social" src="assets/img/linkedin.png" alt="Logo do LinkInn">
+        </a>
+  
+        
+  
+        <a href="https://github.com/ruthfs" target="_blank" class="p-3">
+          <img class="tm-social" src="assets/img/github.png" alt="Logo do GitHub">
+        </a>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-12">
+      <p class="text-center text text-light">
+        Página criada por: Ruth Ferreira &copy
+      </p>
+    </div>
+  </div>
+</div>
+  
+  
+</footer>
+<!-- Footer -->
+
+    <!-- scripst's de query, para conseguir utilizar JS do Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
